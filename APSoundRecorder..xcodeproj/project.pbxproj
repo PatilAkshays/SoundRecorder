@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045E57D51DCF8A04001B6524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E57D41DCF8A04001B6524 /* main.m */; };
+		045E57D81DCF8A04001B6524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E57D71DCF8A04001B6524 /* AppDelegate.m */; };
+		045E57DB1DCF8A04001B6524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045E57DA1DCF8A04001B6524 /* ViewController.m */; };
+		045E57DE1DCF8A04001B6524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045E57DC1DCF8A04001B6524 /* Main.storyboard */; };
+		045E57E01DCF8A04001B6524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045E57DF1DCF8A04001B6524 /* Assets.xcassets */; };
+		045E57E31DCF8A04001B6524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045E57E11DCF8A04001B6524 /* LaunchScreen.storyboard */; };
+		045E57EB1DCF8B6F001B6524 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045E57EA1DCF8B6F001B6524 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		045E57D01DCF8A04001B6524 /* APSoundRecorder..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSoundRecorder..app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045E57D41DCF8A04001B6524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		045E57D61DCF8A04001B6524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		045E57D71DCF8A04001B6524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045E57D91DCF8A04001B6524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		045E57DA1DCF8A04001B6524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		045E57DD1DCF8A04001B6524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045E57DF1DCF8A04001B6524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045E57E21DCF8A04001B6524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045E57E41DCF8A04001B6524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045E57EA1DCF8B6F001B6524 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045E57CD1DCF8A04001B6524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045E57EB1DCF8B6F001B6524 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045E57C71DCF8A04001B6524 = {
+			isa = PBXGroup;
+			children = (
+				045E57EA1DCF8B6F001B6524 /* AVFoundation.framework */,
+				045E57D21DCF8A04001B6524 /* APSoundRecorder. */,
+				045E57D11DCF8A04001B6524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045E57D11DCF8A04001B6524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045E57D01DCF8A04001B6524 /* APSoundRecorder..app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045E57D21DCF8A04001B6524 /* APSoundRecorder. */ = {
+			isa = PBXGroup;
+			children = (
+				045E57D61DCF8A04001B6524 /* AppDelegate.h */,
+				045E57D71DCF8A04001B6524 /* AppDelegate.m */,
+				045E57D91DCF8A04001B6524 /* ViewController.h */,
+				045E57DA1DCF8A04001B6524 /* ViewController.m */,
+				045E57DC1DCF8A04001B6524 /* Main.storyboard */,
+				045E57DF1DCF8A04001B6524 /* Assets.xcassets */,
+				045E57E11DCF8A04001B6524 /* LaunchScreen.storyboard */,
+				045E57E41DCF8A04001B6524 /* Info.plist */,
+				045E57D31DCF8A04001B6524 /* Supporting Files */,
+			);
+			path = APSoundRecorder.;
+			sourceTree = "<group>";
+		};
+		045E57D31DCF8A04001B6524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045E57D41DCF8A04001B6524 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045E57CF1DCF8A04001B6524 /* APSoundRecorder. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045E57E71DCF8A05001B6524 /* Build configuration list for PBXNativeTarget "APSoundRecorder." */;
+			buildPhases = (
+				045E57CC1DCF8A04001B6524 /* Sources */,
+				045E57CD1DCF8A04001B6524 /* Frameworks */,
+				045E57CE1DCF8A04001B6524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APSoundRecorder.;
+			productName = APSoundRecorder.;
+			productReference = 045E57D01DCF8A04001B6524 /* APSoundRecorder..app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045E57C81DCF8A04001B6524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aksh;
+				TargetAttributes = {
+					045E57CF1DCF8A04001B6524 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 045E57CB1DCF8A04001B6524 /* Build configuration list for PBXProject "APSoundRecorder." */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045E57C71DCF8A04001B6524;
+			productRefGroup = 045E57D11DCF8A04001B6524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045E57CF1DCF8A04001B6524 /* APSoundRecorder. */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045E57CE1DCF8A04001B6524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045E57E31DCF8A04001B6524 /* LaunchScreen.storyboard in Resources */,
+				045E57E01DCF8A04001B6524 /* Assets.xcassets in Resources */,
+				045E57DE1DCF8A04001B6524 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045E57CC1DCF8A04001B6524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045E57DB1DCF8A04001B6524 /* ViewController.m in Sources */,
+				045E57D81DCF8A04001B6524 /* AppDelegate.m in Sources */,
+				045E57D51DCF8A04001B6524 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		045E57DC1DCF8A04001B6524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045E57DD1DCF8A04001B6524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045E57E11DCF8A04001B6524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045E57E21DCF8A04001B6524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045E57E51DCF8A04001B6524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045E57E61DCF8A04001B6524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045E57E81DCF8A05001B6524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APSoundRecorder./Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aksh.APSoundRecorder-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		045E57E91DCF8A05001B6524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APSoundRecorder./Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aksh.APSoundRecorder-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045E57CB1DCF8A04001B6524 /* Build configuration list for PBXProject "APSoundRecorder." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045E57E51DCF8A04001B6524 /* Debug */,
+				045E57E61DCF8A04001B6524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045E57E71DCF8A05001B6524 /* Build configuration list for PBXNativeTarget "APSoundRecorder." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045E57E81DCF8A05001B6524 /* Debug */,
+				045E57E91DCF8A05001B6524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045E57C81DCF8A04001B6524 /* Project object */;
+}
